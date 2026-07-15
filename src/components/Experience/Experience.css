@@ -1,0 +1,123 @@
+.experience{
+
+    padding:100px 80px;
+
+    background:#111827;
+}
+
+.experience-card{
+
+    max-width:900px;
+
+    margin:auto;
+
+    background:#1E293B;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    transition:.3s;
+
+    border:1px solid transparent;
+}
+
+.experience-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#3B82F6;
+}
+
+.experience-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+}
+
+.experience-header h3{
+
+    font-size:30px;
+
+    margin-bottom:5px;
+}
+
+.company{
+
+    color:#94A3B8;
+}
+
+.year{
+
+    background:#3B82F6;
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+}
+
+.experience-description{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+    margin-bottom:30px;
+}
+
+.tech-stack{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+}
+
+.tech-stack span{
+
+    background:#0F172A;
+
+    color:#3B82F6;
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    border:1px solid #3B82F6;
+
+    transition:.3s;
+}
+
+.tech-stack span:hover{
+
+    background:#3B82F6;
+
+    color:white;
+}
+@media(max-width:768px){
+
+.experience{
+
+padding:80px 25px;
+
+}
+
+.experience-header{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:15px;
+
+}
+
+}
