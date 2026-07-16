@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./navbar.css";
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"
 
