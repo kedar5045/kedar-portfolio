@@ -11,7 +11,7 @@ const projects = [
     tech: "React • CSS • Material UI • Node.js • MongoDB"
   },
   {
-    title: "calculator",
+    title: "currency converter",
     liveLink:"https://kedar5045.github.io/currency-converter/",
     image:Calculator,
     description:
