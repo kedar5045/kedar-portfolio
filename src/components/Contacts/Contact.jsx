@@ -88,7 +88,7 @@ const Contact = () => {
 
           <input
             type="text"
-            placeholder="Your Name"
+            
 
             name="name"
             placeholder="Your Name"
