@@ -1,6 +1,6 @@
 import "./Contact.css";
 import { useState } from "react";
-import { submitContact } from "../../api/contactApi";
+import { submitContact } from "../../api/contactapi";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
